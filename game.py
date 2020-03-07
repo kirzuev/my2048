@@ -1,5 +1,3 @@
-#!/Users/mr.ponch/anaconda3/bin/python
-
 # coding: utf-8
 
 import pygame
