@@ -142,7 +142,7 @@ class Game:
         font_size = 24
         font_color = (250, 248, 239)
         font = pygame.font.SysFont('Arial', font_size, bold=True)
-        lose_text = font.render('ВЫ ПРОИГРАЛИ', True, font_color)
+        lose_text = font.render('YOU LOSE', True, font_color)
         lose_text_rect = lose_text.get_rect()
         lose_text_rect.center = field.center
         screen.blit(lose_text, lose_text_rect)
